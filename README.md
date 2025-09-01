@@ -1,37 +1,62 @@
 # EliteFit Premium Workout Tracker
 
-## Overview
-EliteFit is a premium workout tracker application designed to help users log their workouts, track their progress, and stay motivated. The application features a user-friendly interface, authentication for secure access, and the ability to visualize workout data through charts and statistics.
+Workout Site 🏋️‍♂️
 
-## Features
-- User authentication (login and signup)
-- Workout logging with exercise suggestions
-- Dashboard for tracking workout statistics
-- Responsive design for mobile and desktop devices
-- Dark mode support
+A simple, modern, and responsive Workout Website built with HTML, CSS, and JavaScript.
+This project is designed for my summer internship and is easy to explain to examiners.
 
-## Setup Instructions
-To set up the EliteFit application locally, follow these steps:
+🚀 Features
 
-1. **Clone the repository:**
-   ```
-   git clone https://github.com/yourusername/elitefit-html-app.git
-   ```
+💪 Workout Categories (Arms, Legs, Abs)
 
-2. **Navigate to the project directory:**
-   ```
-   cd elitefit-html-app
-   ```
+🎨 Modern & Responsive UI (works on mobile, tablet, and desktop)
 
-3. **Open the `index.html` file in your preferred web browser to view the application.**
+⚡ Interactive Filters to view different workout types
 
-## Usage
-- Users can create an account or log in to access their workout data.
-- The main page allows users to log workouts by selecting exercises and entering sets, reps, and duration.
-- Users can view their workout history and statistics on the dashboard.
+✨ Hover Animations and smooth design
 
-## Contributing
-Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
+🌍 Deployed on GitHub Pages
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+📸 Screenshots
+
+
+(Add a screenshot of your site as images/preview.png)
+
+🛠️ Tech Stack
+
+HTML5 – Structure
+
+CSS3 – Styling & Responsiveness
+
+JavaScript (Vanilla JS) – Interactivity
+
+📂 Project Structure
+workout-site/
+│
+├── index.html       # Main page
+├── style.css        # Styling
+├── script.js        # JavaScript logic
+└── images/          # Workout images
+
+⚡ Deployment
+
+This project is live on GitHub Pages:
+👉 View Live Demo
+
+📚 How to Run Locally
+
+Clone this repository
+
+git clone https://github.com/harcel1604/workout-site.git
+
+
+Open the folder
+
+cd workout-site
+
+
+Open index.html in your browser
+
+👨‍💻 Author
+
+Harsh – Summer Internship Project 🌟
