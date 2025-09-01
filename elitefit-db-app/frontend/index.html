@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteFit - Workout Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to EliteFit</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#workouts">Workouts</a></li>
+                <li><a href="#login" id="btnLogin">Login</a></li>
+                <li><a href="#signup" id="btnSignup">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Your Fitness Journey Starts Here</h2>
+            <p>Track your workouts, manage your progress, and achieve your fitness goals with EliteFit.</p>
+        </section>
+
+        <section id="workouts">
+            <h2>Your Workouts</h2>
+            <div id="workoutList"></div>
+            <button id="addWorkoutBtn">Add Workout</button>
+        </section>
+
+        <section id="authModal" class="auth-modal">
+            <div class="auth-content">
+                <span class="close-auth" id="closeAuth">&times;</span>
+                <div class="auth-tabs">
+                    <div class="auth-tab active" id="loginTab">Login</div>
+                    <div class="auth-tab" id="signupTab">Signup</div>
+                </div>
+                <form id="loginForm" class="auth-form active">
+                    <input type="email" id="loginEmail" placeholder="Email" required>
+                    <input type="password" id="loginPassword" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <form id="signupForm" class="auth-form">
+                    <input type="text" id="signupName" placeholder="Name" required>
+                    <input type="email" id="signupEmail" placeholder="Email" required>
+                    <input type="password" id="signupPassword" placeholder="Password" required>
+                    <input type="password" id="signupConfirmPassword" placeholder="Confirm Password" required>
+                    <button type="submit">Signup</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 EliteFit. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
