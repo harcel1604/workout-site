@@ -17,10 +17,6 @@ This project is designed for my summer internship and is easy to explain to exam
 
 🌍 Deployed on GitHub Pages
 
-📸 Screenshots
-
-
-(Add a screenshot of your site as images/preview.png)
 
 🛠️ Tech Stack
 
